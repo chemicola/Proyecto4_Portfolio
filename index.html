@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de la Página</title>
-    <meta name="description" content="Descripción de tu página.">
+    <title>Portfolio Adam Keyes</title>
+    <meta name="description" content="Portfolio de Adam Keyes, desarrollador front-end.">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header>
         <div class="header-container">
             <h2>adamkeyes</h2>
-            <a href="#"><img src="icons/icon-github.svg" alt="Icono de github"></a>
-            <a href="#"><img src="icons/icon-frontendmentor.svg" alt="Icono de frontendmentor"></a>
-            <a href="#"><img src="icons/icon-linkedin.svg" alt="Icono de linkedin"></a>
-            <a href="#"><img src="icons/icon-twitter.svg" alt="Icono de twitter"></a>
-            <a href="#"><img src="img/chico-vista-movil.png" alt="Imagen del chico en vista móvil"></a>
+            <div class="container-iconos-h">
+                <a href="#"><img src="icons/icon-github.svg" alt="Icono de github"></a>
+                <a href="#"><img src="icons/icon-frontendmentor.svg" alt="Icono de frontendmentor"></a>
+                <a href="#"><img src="icons/icon-linkedin.svg" alt="Icono de linkedin"></a>
+                <a href="#"><img src="icons/icon-twitter.svg" alt="Icono de twitter"></a>
+            </div>
+            <div class="container-img-chico">
+                <img src="img/chico-vista-movil.png" alt="Imagen del chico en vista móvil">
+            </div>
         </div>
-        <h1>Nice to meet you! I'm<span>Adam Keyes</span>.</h1>
-            <p>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-            <a href="#">CONTACT ME</a>
+
+        <h1>Nice to meet you! I'm <span>Adam Keyes</span>.</h1>
+        <p>Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
+        <a href="#" class="contact-me">CONTACT ME</a>
     </header>
 
+    <div class="ovalos-fondo1">
+        <img src="icons/ovalos-fondo.svg" alt="Óvalos decorativos de fondo 1">
+    </div>
+
     <main>
-        <section>
+        <section class="experiencia">
             <h3>HTML</h3>
             <p>4 Years Experience</p>
             <h3>CSS</h3>
@@ -39,9 +52,16 @@
             <p>3 Years Experience</p>
         </section>
 
-        <section>
-            <h4>Proyects</h4>
-            <a href="#">CONTACT ME</a>
+        <div class="ovalos-fondo2">
+            <img src="icons/ovalos-fondo.svg" alt="Óvalos decorativos de fondo 2">
+        </div>
+
+        <section class="proyectos">
+            <div class="cabecera-proyectos">
+                <h4>Projects</h4>
+                <a href="#" class="contact-me">CONTACT ME</a>
+            </div>
+
             <article class="proyecto1">
                 <img src="img/design-portfolio.png" alt="Imagen del proyecto design-portfolio">
                 <h5>DESIGN PORTFOLIO</h5>
@@ -52,7 +72,7 @@
                 </div>
             </article>
 
-            <article class="proyecto1">
+            <article class="proyecto2">
                 <img src="img/e-learning.png" alt="Imagen del proyecto e-learning">
                 <h5>E-LEARNING LANDING PAGE</h5>
                 <p>HTML CSS</p>
@@ -62,7 +82,7 @@
                 </div>
             </article>
 
-            <article class="proyecto1">
+            <article class="proyecto3">
                 <img src="img/todo-web.png" alt="Imagen del proyecto todo-web">
                 <h5>TODO WEB APP</h5>
                 <p>HTML CSS JAVASCRIPT</p>
@@ -72,7 +92,7 @@
                 </div>
             </article>
 
-            <article class="proyecto1">
+            <article class="proyecto4">
                 <img src="img/entertainment.png" alt="Imagen del proyecto entertainment">
                 <h5>ENTERTAINMENT WEB APP</h5>
                 <p>HTML CSS JAVASCRIPT</p>
@@ -82,7 +102,7 @@
                 </div>
             </article>
 
-            <article class="proyecto1">
+            <article class="proyecto5">
                 <img src="img/memory-game.png" alt="Imagen del proyecto memory-game">
                 <h5>MEMORY GAME</h5>
                 <p>HTML CSS JAVASCRIPT</p>
@@ -92,7 +112,7 @@
                 </div>
             </article>
 
-            <article class="proyecto1">
+            <article class="proyecto6">
                 <img src="img/art-gallery.png" alt="Imagen del proyecto art-gallery">
                 <h5>ART GALLERY SHOWCASE</h5>
                 <p>HTML CSS JAVASCRIPT</p>
@@ -105,24 +125,29 @@
     </main>
 
     <section class="contacto">
-        <h4>CONTACT</h4>
+        <h4>Contact</h4>
         <p>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
-        <a href="#">CONTACT ME</a>
-    </section>
         <form>
             <input type="text" name="nombre" placeholder="NAME">
             <input type="email" name="email" placeholder="EMAIL"></input>
             <textarea type="text" name="mensaje" placeholder="MESSAGE"></textarea>
             <button type="submit">SEND MESSAGE</button>
         </form>
+    </section>
 
+    <div class="ovalos-fondo3">
+        <img src="icons/ovalos-fondo.svg" alt="Óvalos decorativos de fondo 3">
+    </div>
+    
     <footer>
         <div class="footer-container">
             <h2>adamkeyes</h2>
-            <a href="#"><img src="icons/icon-github.svg" alt="Icono de github"></a>
-            <a href="#"><img src="icons/icon-frontendmentor.svg" alt="Icono de frontendmentor"></a>
-            <a href="#"><img src="icons/icon-linkedin.svg" alt="Icono de linkedin"></a>
-            <a href="#"><img src="icons/icon-twitter.svg" alt="Icono de twitter"></a>
+            <div class="container-iconos-f">
+                <a href="#"><img src="icons/icon-github.svg" alt="Icono de github"></a>
+                <a href="#"><img src="icons/icon-frontendmentor.svg" alt="Icono de frontendmentor"></a>
+                <a href="#"><img src="icons/icon-linkedin.svg" alt="Icono de linkedin"></a>
+                <a href="#"><img src="icons/icon-twitter.svg" alt="Icono de twitter"></a>
+            </div>
         </div>
     </footer>
 </body>
