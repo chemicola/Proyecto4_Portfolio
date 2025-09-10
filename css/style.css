@@ -371,5 +371,214 @@ footer {
     footer {
         background-color: rgba(36, 36, 36, 0.6);
     }
+}
 
+@media (min-width: 1024px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 60px;
+    }
+
+    .container-h2-h {
+        grid-column: 1 / 1;
+        grid-row: 1 / span 1;
+        text-align: left;
+    }
+
+    .header-container {
+        background: none;
+        max-width: 100%;
+    }
+
+    .container-iconos-h {
+        grid-column: 2 / 2;
+        grid-row: 1 / span 1;
+        justify-content: flex-end;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .container-img-h {
+        grid-column: 2 / 2;
+        grid-row: 1 / span 3;
+        justify-content: right;
+        align-items: right;
+        width: 100%;
+    }
+
+    .container-img-chico {
+        width: 110%;
+        height: 100%;
+        align-content: flex-end;
+        justify-content: flex-end;
+        display: flex;
+        ;
+    }
+
+    .container-img-chico img {
+        width: 360px;
+        height: 480px;
+        position: relative;
+        top: 40px;
+    }
+
+    .container-texto-h {
+        grid-column: 1 / 1;
+        grid-row: 2 / span 3;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        width: 120%;
+    }
+
+    header h1 {
+        font-size: 88px;
+        line-height: 1.1;
+        padding-bottom: 40px;
+        padding-top: 80px;
+    }
+
+    header h2 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    header p {
+        font-size: 20px;
+        line-height: 1.6;
+        padding-bottom: 60px;
+    }
+
+    .experiencia {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 60px;
+        text-align: left;
+        margin: 80px auto 120px auto;
+        max-width: 1200px;
+        padding: 80px 60px;
+    }
+
+    .experiencia h3 {
+        font-size: 48px;
+    }
+
+    .experiencia p {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+
+    .grid-proyectos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        max-width: 1300px;
+        margin: 20px auto;
+        padding: 0 60px;
+    }
+
+    .cabecera-proyectos {
+        padding: 0 350px;
+        max-width: 2000px;
+    }
+
+    .cabecera-proyectos h4 {
+        font-size: 72px;
+    }
+
+    .cabecera-proyectos a {
+        font-size: 18px;
+    }
+
+    .proyectos img {
+        height: 320px;
+    }
+
+    .proyectos h5 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .proyectos p {
+        font-size: 18px;
+    }
+
+    .links-proyecto {
+        font-size: 18px;
+        gap: 40px;
+    }
+
+    .contacto {
+        margin: 120px auto 0 auto;
+        padding: 80px 140px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+        gap: 40px;
+        align-items: start;
+        text-align: left;
+        align-content: start; 
+    }
+
+    .contacto h4 {
+        font-size: 72px;
+        padding: 0 0 0px 0;
+        text-align: left;
+    }
+
+    .contacto p {
+        font-size: 18px;
+        line-height: 1.6;
+        padding: 0;
+        text-align: left;
+        max-width: 90%;
+    }
+
+    form {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        grid-column: 2 / 2;
+        grid-row: 1 / span 2;
+    }
+
+    form input, form textarea {
+        font-size: 18px;
+    }
+
+    form button {
+        font-size: 18px;
+    }
+
+    footer {
+        background-color: rgba(36, 36, 36, 0.6);
+        padding: 0 60px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+        border-top: #D9D9D9 1px solid;
+    }
+
+    .footer-container h2 {
+        font-size: 32px;
+        padding: 0;
+        border: none;
+    }
+
+    .container-iconos-f {
+        display: flex;
+        gap: 30px;
+        padding: 0;
+    }
 }
